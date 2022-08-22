@@ -5,15 +5,14 @@ namespace RestaurantMenu
 {
     public class Menu
     {
-        public List<MenuItem> Goodfood { get; set; }
+        public List<MenuItem> MenuItems { get; set; }
 
         public DateTime DateTime { get; set; }
 
-        public Menu(List<MenuItem> goodfood, DateTime dateTime)
+        public Menu(List<MenuItem> menuItems, DateTime dateTime)
         {
-            Goodfood = goodfood;
+            MenuItems = menuItems;
             DateTime = dateTime;
         }
-
     }
 }
